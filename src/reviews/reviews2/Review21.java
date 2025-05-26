@@ -1,9 +1,11 @@
-public class Review22 {
+package reviews.reviews2;
+
+public class Review21 {
     public static void main(String[] args) {
-        int num = 5;
+        int num = 6;
         int sum = 0;
         for (int i = 0; i <= num; i++) {
-            if (i % 2 == 1) {
+            if (i % 2 == 0) {
                 sum = sum + i;
             }
         }

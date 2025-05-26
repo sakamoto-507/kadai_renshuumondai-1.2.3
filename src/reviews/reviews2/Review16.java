@@ -1,11 +1,13 @@
-public class Review21 {
+package reviews.reviews2;
+
+public class Review16 {
     public static void main(String[] args) {
         int num = 6;
         int sum = 0;
-        for (int i = 0; i <= num; i++) {
-            if (i % 2 == 0) {
-                sum = sum + i;
-            }
+        int i = 0;
+        while (i <= num) {
+            sum = sum + i;
+            i = i + 1;
         }
         System.out.println("結果" + sum);
     }
