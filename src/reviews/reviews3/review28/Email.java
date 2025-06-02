@@ -1,6 +1,6 @@
-package reviews.reviews3;
+package reviews.reviews3.review28;
 
-public class review28_2 {
+public class Email {
     public void send(String to,String body) {
         System.out.println(to + "に以下のメッセージを送信しました。");
         System.out.println("件名: 【件名なし】");

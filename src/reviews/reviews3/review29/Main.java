@@ -1,12 +1,10 @@
-package reviews.reviews3;
+package reviews.reviews3.review29;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
-public class review29_1 {
+public class Main {
     public static void main(String[] args) throws IOException {
-        review29_2 keyinput = new review29_2();
+        Email keyinput = new Email();
         System.out.print("宛先を入力>");
         String to = keyinput.readString();
         System.out.print("件名を入力>");

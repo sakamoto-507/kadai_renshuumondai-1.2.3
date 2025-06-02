@@ -1,8 +1,8 @@
-package reviews.reviews3;
+package reviews.reviews3.review29;
 
 import java.io.*;
 
-public class review29_2 {
+public class Email {
     public String readString() {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String inputStr = "";
